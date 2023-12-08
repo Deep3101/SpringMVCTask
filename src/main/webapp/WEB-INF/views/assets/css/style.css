@@ -1,0 +1,28 @@
+  #firstname-error,
+        #lastname-error,
+        #birthday-error,
+        #email-error,
+        #password-error,
+        #cpassword-error,
+        #selectcity-error,
+        #check-error,
+        #username-error,
+        #contact-error
+        {
+            color: red;
+        }
+
+        .add-border-red {
+            border: 2px solid red;
+            box-shadow: 0.5px 0.5px 1px 0.5px red;
+        }
+
+        .add-border-green {
+            border: 2px solid green;
+            box-shadow: 0.5px 0.5px 1px 0.5px green;
+        }
+
+        .form-label::after {
+            content: "*";
+            color: red;
+        }

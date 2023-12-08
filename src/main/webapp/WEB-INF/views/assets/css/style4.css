@@ -1,0 +1,40 @@
+  body {
+            background-color: #0275d8;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center horizontally */
+            justify-content: center; /* Center vertically */
+            padding-top: 40px;
+        }
+
+        .user-details {
+            width: 100%;
+            max-width: 900px; /* Limit width to make it more readable */
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
+            border-radius: 5px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+        .error-message {
+             color:red;
+        }
